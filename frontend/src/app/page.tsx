@@ -1,10 +1,9 @@
+import { Dashboard } from "@/components/Dashboard";
+import SidebarComponent from "@/components/Sidebar";
 import { Button } from "@/components/ui/button";
+
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div>
-      <Button>Click me</Button>
-    </div>
-  );
+  return <Dashboard />;
 }
